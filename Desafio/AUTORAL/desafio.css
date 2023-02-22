@@ -1,0 +1,120 @@
+@charset "TRF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 202, 110);
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.sub {
+    background-image: linear-gradient(to right, rgba(148, 241, 148, 0.377), rgba(236, 236, 155, 0.377));
+    padding: 5px;
+    color:  rgb(6, 105, 6);
+    width: 70%;
+    font-size: 30px;
+}
+
+.verde {
+    color: rgb(22, 190, 112);
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(16, 97, 79), rgb(22, 190, 112));
+    height: 200px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 10px;
+}
+header > h1 {
+    color: rgb(248, 248, 190);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; /* remover as bolinhas da lista */
+    padding: 0px; /* remover o padding padrão da lista */
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    color: white;
+}
+  li {
+    margin-right: 10px; /* adicionar um espaçamento entre os itens da lista */
+  }
+
+main {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    margin-top: 0px;
+}
+main > h1 {
+    font-size: 40px;
+    color: rgb(11, 97, 11);
+}
+
+#video {
+    background-color: green;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    margin-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+    max-height: 550px;
+}
+
+.extra {
+    background-color: rgb(124, 255, 124);
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#verde_escuro {
+    background-color: rgb(85, 211, 162);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 12px 12px 0px 0px;
+    color: rgb(11, 97, 11);
+    width: 100%;
+}
+
+#final {
+    width: 100%;
+    background-color: rgb(16, 75, 16);
+    margin-top: 50px;
+    text-align: center;
+
+}
